@@ -68,12 +68,11 @@ Ways to reduce overfitting:
 5. What is the difference between Training Data and Testing Data?
 
 Answer:
-
 Training data is the data used to train and learn the model.
 
 Testing data is unseen data used to evaluate how well the trained model performs.
 
-Example:
+Example of testing data and training data:
 
 Dataset
    ↓
