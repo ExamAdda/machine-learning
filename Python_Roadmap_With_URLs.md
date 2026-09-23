@@ -1,178 +1,215 @@
 # 🐍 Python Roadmap
 
-> A structured roadmap to learn Python from fundamentals to core programming concepts, functions, modules, classes, and file handling.
+> A structured roadmap to learn Python from fundamentals to OOP, file handling, NumPy, Pandas, and Matplotlib.
 
 ---
 
-## 01. Python Basics
+### Python Basics
 
-- [ ] [Introduction](https://www.w3schools.com/python/python_intro.asp)
-- [ ] [Installation](https://www.w3schools.com/python/python_getstarted.asp)
-- [ ] [Syntax](https://www.w3schools.com/python/python_syntax.asp)
-- [ ] [Output](https://www.w3schools.com/python/python_output.asp)
-- [ ] [Comments](https://www.w3schools.com/python/python_comments.asp)
-- [ ] [Variables](https://www.w3schools.com/python/python_variables.asp)
-  - [ ] [Variable Names](https://www.w3schools.com/python/python_variables_names.asp)
-  - [ ] [Assign Multiple Values](https://www.w3schools.com/python/python_variables_multiple.asp)
-  - [ ] [Output Variables](https://www.w3schools.com/python/python_variables_output.asp)
-  - [ ] [Global Variables](https://www.w3schools.com/python/python_variables_global.asp)
-- [ ] [Data Types](https://www.w3schools.com/python/python_datatypes.asp)
-- [ ] [Numbers](https://www.w3schools.com/python/python_numbers.asp)
-- [ ] [Casting](https://www.w3schools.com/python/python_casting.asp)
+- [Introduction](https://dev.tech.examadda.org/python/python-introduction)
+- [Installation](https://dev.tech.examadda.org/python/python-installation)
+- [Syntax](https://dev.tech.examadda.org/python/python-syntax)
+- [Output](https://dev.tech.examadda.org/python/python-output)
+- [Comments](https://dev.tech.examadda.org/python/python-comments)
+- [Variables](https://dev.tech.examadda.org/python/python-tutorialpython-tutorial)
+  - [Variable Names](https://dev.tech.examadda.org/python/python-tutorialpython-tutorial)
+  - [Assign Multiple Values](https://dev.tech.examadda.org/python/assign-multiple-values)
+  - [Output Variables](https://dev.tech.examadda.org/python/output-variables)
+  - [Global Variables](https://dev.tech.examadda.org/python/python-global-and-local-variables)
 
-⬇️
+### Data Types
 
-## 02. Strings
-
-- [ ] [Strings](https://www.w3schools.com/python/python_strings.asp)
-  - [ ] [Slicing Strings](https://www.w3schools.com/python/python_strings_slicing.asp)
-  - [ ] [Modify Strings](https://www.w3schools.com/python/python_strings_modify.asp)
-  - [ ] [String Concatenation](https://www.w3schools.com/python/python_strings_concatenate.asp)
-  - [ ] [Format - Strings](https://www.w3schools.com/python/python_string_formatting.asp)
-  - [ ] [Escape Characters](https://www.w3schools.com/python/python_strings_escape.asp)
-  - [ ] [String Methods](https://www.w3schools.com/python/python_strings_methods.asp)
-  - [ ] [String Exercises](https://www.w3schools.com/python/python_strings_exercises.asp)
-
-⬇️
-
-## 03. Booleans & Operators
-
-### Booleans
-
-- [ ] [Booleans](https://www.w3schools.com/python/python_booleans.asp)
+- [Data Types](https://dev.tech.examadda.org/python/python-data-types)
+- [Numbers](https://dev.tech.examadda.org/python/python-numeric-datatype)
+- [Casting](https://dev.tech.examadda.org/python/python-type-casting)
+- [Strings](https://dev.tech.examadda.org/python/python-string-slicing)
+  - [Slicing Strings](https://dev.tech.examadda.org/python/python-string-slicing)
+  - [Modify Strings](https://dev.tech.examadda.org/python/python-modify-strings)
+  - [String Concatenation](https://dev.tech.examadda.org/python/python-string-concatenation)
+  - [Format - Strings](https://dev.tech.examadda.org/python/python-f-strings)
+  - [Escape Characters](https://dev.tech.examadda.org/python/python-escape-characters)
+  - [String Methods](https://dev.tech.examadda.org/python/python-string-methods)
+  - [String Exercises](https://dev.tech.examadda.org/python/python-string-exercises)
+- [Booleans](https://dev.tech.examadda.org/python/python-booleans)
 
 ### Operators
 
-- [ ] [Operators](https://www.w3schools.com/python/python_operators.asp)
-  - [ ] [Arithmetic Operators](https://www.w3schools.com/python/python_operators.asp#arithmetic)
-  - [ ] [Assignment Operators](https://www.w3schools.com/python/python_operators.asp#assignment)
-  - [ ] [Comparison Operators](https://www.w3schools.com/python/python_operators.asp#comparison)
-  - [ ] [Logical Operators](https://www.w3schools.com/python/python_operators.asp#logical)
-  - [ ] [Identity Operators](https://www.w3schools.com/python/python_operators.asp#identity)
-  - [ ] [Membership Operators](https://www.w3schools.com/python/python_operators.asp#membership)
-  - [ ] [Bitwise Operators](https://www.w3schools.com/python/python_operators.asp#bitwise)
-  - [ ] [Operator Precedence](https://www.w3schools.com/python/python_operators.asp#precedence)
+- [Operators](https://dev.tech.examadda.org/python/python-arithmetic-operators)
+  - [Arithmetic Operators](https://dev.tech.examadda.org/python/python-arithmetic-operators)
+  - [Assignment Operators](https://dev.tech.examadda.org/python/python-assignment-operators)
+  - [Comparison Operators](https://dev.tech.examadda.org/python/python-comparison-operators)
+  - [Logical Operators](https://dev.tech.examadda.org/python/python-logical-operator)
+  - [Identity Operators](https://dev.tech.examadda.org/python/python-identity-operator)
+  - [Membership Operators](https://dev.tech.examadda.org/python/python-membership-operator)
+  - [Bitwise Operators](https://dev.tech.examadda.org/python/python-bitwise-operator)
+  - [Operator Precedence](https://dev.tech.examadda.org/python/operator-precedence)
 
-⬇️
+### Lists
 
-## 04. Lists
+- [Lists](https://dev.tech.examadda.org/python/access-list-items)
+  - [Access List Items](https://dev.tech.examadda.org/python/access-list-items)
+  - [Change List Items](https://dev.tech.examadda.org/python/change-list-items)
+  - [Add List Items](https://dev.tech.examadda.org/python/add-list-items)
+  - [Remove List Items](https://dev.tech.examadda.org/python/remove-list-items)
+  - [Loops](https://dev.tech.examadda.org/python/loop-lists)
+  - [List Comprehension](https://dev.tech.examadda.org/python/list-comprehension)
+  - [List Methods](https://dev.tech.examadda.org/python/list-methods)
 
-- [ ] [Lists](https://www.w3schools.com/python/python_lists.asp)
-  - [ ] [Access List Items](https://www.w3schools.com/python/python_lists_access.asp)
-  - [ ] [Change List Items](https://www.w3schools.com/python/python_lists_change.asp)
-  - [ ] [Add List Items](https://www.w3schools.com/python/python_lists_add.asp)
-  - [ ] [Remove List Items](https://www.w3schools.com/python/python_lists_remove.asp)
-- [ ] [Loops](https://www.w3schools.com/python/python_lists_loop.asp)
-- [ ] [List Comprehension](https://www.w3schools.com/python/python_lists_comprehension.asp)
-- [ ] [List Methods](https://www.w3schools.com/python/python_lists_methods.asp)
+### Tuples
 
-⬇️
+- [Tuples](https://dev.tech.examadda.org/python/access-tuple-items)
+  - [Access Tuple Items](https://dev.tech.examadda.org/python/access-tuple-items)
+  - [Update Tuple Items](https://dev.tech.examadda.org/python/update-tuple-items)
+  - [Packing and Unpacking of Tuples](https://dev.tech.examadda.org/python/packing-and-unpacking-of-tuples)
+  - [Loop Tuples](https://dev.tech.examadda.org/python/loop-tuples)
+  - [Join Tuples](https://dev.tech.examadda.org/python/join-tuples)
+  - [Tuple Methods](https://dev.tech.examadda.org/python/tuple-methods)
 
-## 05. Tuples
+### Sets
 
-- [ ] [Tuples](https://www.w3schools.com/python/python_tuples.asp)
-  - [ ] [Access Tuple Items](https://www.w3schools.com/python/python_tuples_access.asp)
-  - [ ] [Update Tuple Items](https://www.w3schools.com/python/python_tuples_update.asp)
-  - [ ] [Packing and Unpacking of Tuples](https://www.w3schools.com/python/python_tuples_unpack.asp)
-  - [ ] [Loop Tuples](https://www.w3schools.com/python/python_tuples_loop.asp)
-  - [ ] [Join Tuples](https://www.w3schools.com/python/python_tuples_join.asp)
-  - [ ] [Tuple Methods](https://www.w3schools.com/python/python_tuples_methods.asp)
+- [Sets](https://dev.tech.examadda.org/python/access-set-items)
+  - [Access Set Items](https://dev.tech.examadda.org/python/access-set-items)
+  - [Add Set Items](https://dev.tech.examadda.org/python/add-set-items)
+  - [Remove Set Items](https://dev.tech.examadda.org/python/remove-set-items)
+  - [Loop Sets](https://dev.tech.examadda.org/python/loop-sets)
+  - [Join Sets](https://dev.tech.examadda.org/python/join-sets)
+  - [Frozen Sets](https://dev.tech.examadda.org/python/frozen-sets)
+  - [Set Methods](https://dev.tech.examadda.org/python/set-methods)
 
-⬇️
+### Dictionaries
 
-## 06. Sets
+- [Dictionaries](https://dev.tech.examadda.org/python/access-dictionary-items)
+  - [Access Dictionary Items](https://dev.tech.examadda.org/python/access-dictionary-items)
+  - [Change Dictionary Items](https://dev.tech.examadda.org/python/change-dictionary-items)
+  - [Add Dictionary Items](https://dev.tech.examadda.org/python/add-dictionary-items)
+  - [Remove Dictionary Items](https://dev.tech.examadda.org/python/remove-dictionary-items)
+  - [Loop Dictionary Items](https://dev.tech.examadda.org/python/loop-dictionary-items)
+  - [Copy Dictionaries](https://dev.tech.examadda.org/python/copy-dictionary-items)
+  - [Nested Dictionaries](https://dev.tech.examadda.org/python/nested-dictionaries)
+  - [Dictionary Methods](https://dev.tech.examadda.org/python/dictionary-methods)
 
-- [ ] [Sets](https://www.w3schools.com/python/python_sets.asp)
-  - [ ] [Access Set Items](https://www.w3schools.com/python/python_sets_access.asp)
-  - [ ] [Add Set Items](https://www.w3schools.com/python/python_sets_add.asp)
-  - [ ] [Remove Set Items](https://www.w3schools.com/python/python_sets_remove.asp)
-  - [ ] [Loop Sets](https://www.w3schools.com/python/python_sets_loop.asp)
-  - [ ] [Join Sets](https://www.w3schools.com/python/python_sets_join.asp)
-  - [ ] [Frozen Sets](https://www.w3schools.com/python/python_frozensets.asp)
-  - [ ] [Set Methods](https://www.w3schools.com/python/python_sets_methods.asp)
+### Python If Else
 
-⬇️
+- [Python If Else](https://dev.tech.examadda.org/python/if-statements)
+  - [Python If](https://dev.tech.examadda.org/python/if-statements)
+  - [Python Elif](https://dev.tech.examadda.org/python/elif-statement)
+  - [Python Else](https://dev.tech.examadda.org/python/else-statement)
+  - [Python Shorthand If](https://dev.tech.examadda.org/python/shorthand-if)
+  - [Python Nested If](https://dev.tech.examadda.org/python/nested-if)
+  - [Python Pass Statement](https://dev.tech.examadda.org/python/pass-statement)
 
-## 07. Dictionaries
+### Python Loops
 
-- [ ] [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp)
-  - [ ] [Access Dictionary Items](https://www.w3schools.com/python/python_dictionaries_access.asp)
-  - [ ] [Change Dictionary Items](https://www.w3schools.com/python/python_dictionaries_change.asp)
-  - [ ] [Add Dictionary Items](https://www.w3schools.com/python/python_dictionaries_add.asp)
-  - [ ] [Remove Dictionary Items](https://www.w3schools.com/python/python_dictionaries_remove.asp)
-  - [ ] [Loop Dictionary Items](https://www.w3schools.com/python/python_dictionaries_loop.asp)
-  - [ ] [Copy Dictionaries](https://www.w3schools.com/python/python_dictionaries_copy.asp)
-  - [ ] [Nested Dictionaries](https://www.w3schools.com/python/python_dictionaries_nested.asp)
-  - [ ] [Dictionary Methods](https://www.w3schools.com/python/python_dictionaries_methods.asp)
+- [Python Match](https://dev.tech.examadda.org/python/match-statement)
+- [Python For Loops](https://dev.tech.examadda.org/python/for-loops)
+- [Python While Loops](https://dev.tech.examadda.org/python/while-loops)
+- [Python Jump Statements](https://dev.tech.examadda.org/python/jump-statements)
 
-⬇️
+### Python Functions
 
-## 08. Python If Else
+- [Python Functions](https://dev.tech.examadda.org/python/functions-introduction)
+  - [Python Functions Introduction](https://dev.tech.examadda.org/python/functions-introduction)
+  - [Python Arguments](https://dev.tech.examadda.org/python/function-arguments)
+  - [Python *args / **kwargs](https://dev.tech.examadda.org/python/python-args_wargs)
+  - [Python Scope](https://dev.tech.examadda.org/python/function-scope)
+  - [Python Decorators](https://dev.tech.examadda.org/python/decorators)
+  - [Python Lambda](https://dev.tech.examadda.org/python/lambda)
+  - [Python Recursions](https://dev.tech.examadda.org/python/recursion)
+  - [Python Generators](https://dev.tech.examadda.org/python/generators)
 
-- [ ] [Python If](https://www.w3schools.com/python/python_conditions.asp)
-- [ ] [Python Elif](https://www.w3schools.com/python/python_conditions.asp#elif)
-- [ ] [Python Else](https://www.w3schools.com/python/python_conditions.asp#else)
-- [ ] [Python Shorthand If](https://www.w3schools.com/python/python_conditions.asp#short)
-- [ ] [Python Nested If](https://www.w3schools.com/python/python_conditions_nested.asp)
-- [ ] [Python Pass Statement](https://www.w3schools.com/python/python_conditions.asp#pass)
-- [ ] [Python Match](https://www.w3schools.com/python/python_match.asp)
+### Python Utilities
 
-⬇️
+- [Python Range](https://dev.tech.examadda.org/python/python-range)
+- [Python Iterators](https://dev.tech.examadda.org/python/python-iterators)
+- [Python Modules](https://dev.tech.examadda.org/python/python-modules)
+- [Python Dates](https://dev.tech.examadda.org/python/python-dates)
+- [Python Math](https://dev.tech.examadda.org/python/python-math)
+- [Python JSON](https://dev.tech.examadda.org/python/python-json)
+- [Python Regex](https://dev.tech.examadda.org/python/python-regex)
+- [Python PIP](https://dev.tech.examadda.org/python/python-pip)
+- [Python Try Except](https://dev.tech.examadda.org/python/try-except)
+- [Python String Formatting](https://dev.tech.examadda.org/python/string-formatting)
+- [Python None](https://dev.tech.examadda.org/python/python-none)
+- [Python User Input](https://dev.tech.examadda.org/python/user-input)
+- [Python Virtual Environment](https://dev.tech.examadda.org/python/virtual-environment)
 
-## 09. Python Loops & Jump Statements
+### Python Classes & OOP
 
-- [ ] [Python For Loops](https://www.w3schools.com/python/python_for_loops.asp)
-- [ ] [Python While Loops](https://www.w3schools.com/python/python_while_loops.asp)
-- [ ] [Python Jump Statements](https://www.w3schools.com/python/python_while_loops.asp)
+- [Python OOP](https://dev.tech.examadda.org/python/python-oop)
+- [Python Classes / Objects](https://dev.tech.examadda.org/python/classes-and-objects)
+- [Python __init__ Method](https://dev.tech.examadda.org/python/__init__method)
+- [Python Self Parameter](https://dev.tech.examadda.org/python/self-parameter)
+- [Python Class Properties](https://dev.tech.examadda.org/python/class-properties)
+- [Python Class Methods](https://dev.tech.examadda.org/python/class-methods)
+- [Python Static Methods](https://dev.tech.examadda.org/python/static-methods)
+- [Python Inheritance](https://dev.tech.examadda.org/python/python-inheritance)
+- [Python Encapsulation](https://dev.tech.examadda.org/python/python-encapsulation)
+- [Python Polymorphism](https://dev.tech.examadda.org/python/python-polymorphism)
+- [Python Abstraction](https://dev.tech.examadda.org/python/python-abstraction)
+- [Python Interfaces](https://dev.tech.examadda.org/python/python-interfaces)
+- [Python Composition vs Inheritance](https://dev.tech.examadda.org/python/composition-vs-inheritance)
+- [Python Nested Classes](https://dev.tech.examadda.org/python/nested-classes)
 
-⬇️
+### File Handling
 
-## 10. Python Functions
+- [Python File Handling](https://dev.tech.examadda.org/python/file-handling)
+  - [Read Files](https://dev.tech.examadda.org/python/read-files)
+  - [Write/Create Files](https://dev.tech.examadda.org/python/write-files)
+  - [Delete Files](https://dev.tech.examadda.org/python/delete-files)
 
-- [ ] [Python Functions Introduction](https://www.w3schools.com/python/python_functions.asp)
-- [ ] [Python Arguments](https://www.w3schools.com/python/python_functions.asp#arguments)
-- [ ] [Python *args / **kwargs](https://www.w3schools.com/python/python_args.asp)
-- [ ] [Python Scope](https://www.w3schools.com/python/python_scope.asp)
-- [ ] [Python Decorators](https://www.w3schools.com/python/python_decorators.asp)
-- [ ] [Python Lambda](https://www.w3schools.com/python/python_lambda.asp)
-- [ ] [Python Recursions](https://www.w3schools.com/python/python_functions_recursion.asp)
-- [ ] [Python Generators](https://www.w3schools.com/python/python_generators.asp)
-- [ ] [Python Range](https://www.w3schools.com/python/python_ranges.asp)
-- [ ] [Python Iterators](https://www.w3schools.com/python/python_iterators.asp)
+### NumPy
 
-⬇️
+- [NumPy Tutorial](https://dev.tech.examadda.org/python/numpy-introduction)
+  - [NumPy Introduction](https://dev.tech.examadda.org/python/numpy-introduction)
+  - [NumPy Creating Arrays](https://dev.tech.examadda.org/python/creating-arrays)
+  - [NumPy Array Indexing](https://dev.tech.examadda.org/python/array-indexing)
+  - [NumPy Array Slicing](https://dev.tech.examadda.org/python/array-slicing)
+  - [NumPy DataTypes](https://dev.tech.examadda.org/python/data-types)
+  - [NumPy Copy vs View](https://dev.tech.examadda.org/python/copy-vs-view)
+  - [NumPy Array Shape](https://dev.tech.examadda.org/python/array-shape)
+  - [NumPy Array Iterating](https://dev.tech.examadda.org/python/array-iteration)
+  - [NumPy Array Join](https://dev.tech.examadda.org/python/array-join)
+  - [NumPy Array Split](https://dev.tech.examadda.org/python/array-split)
+  - [NumPy Array Search](https://dev.tech.examadda.org/python/array-search)
+  - [NumPy Array Sort](https://dev.tech.examadda.org/python/numpy-sort)
+  - [NumPy Array Filter](https://dev.tech.examadda.org/python/numpy-filter)
+  - [NumPy Random](https://dev.tech.examadda.org/python/numpy-random)
+  - [NumPy ufunc](https://dev.tech.examadda.org/python/numpy-ufunc)
+  - [NumPy Broadcasting](https://dev.tech.examadda.org/python/numpy-broadcasting)
+  - [NumPy Linear Algebra](https://dev.tech.examadda.org/python/numpy-linear-algebra)
+  - [NumPy Statistics Functions](https://dev.tech.examadda.org/python/numpy-statistics-functions)
 
-## 11. Core Python
+### Pandas
 
-- [ ] [Python Modules](https://www.w3schools.com/python/python_modules.asp)
-- [ ] [Python Dates](https://www.w3schools.com/python/python_datetime.asp)
-- [ ] [Python Math](https://www.w3schools.com/python/python_math.asp)
-- [ ] [Python JSON](https://www.w3schools.com/python/python_json.asp)
-- [ ] [Python Regex](https://www.w3schools.com/python/python_regex.asp)
-- [ ] [Python PIP](https://www.w3schools.com/python/python_pip.asp)
-- [ ] [Python Try Except](https://www.w3schools.com/python/python_try_except.asp)
-- [ ] [Python String Formatting](https://www.w3schools.com/python/python_string_formatting.asp)
-- [ ] [Python None](https://www.w3schools.com/python/python_none.asp)
-- [ ] [Python User Input](https://www.w3schools.com/python/python_user_input.asp)
-- [ ] [Python Virtual Environment](https://www.w3schools.com/python/python_virtualenv.asp)
+- [Pandas Tutorial](https://dev.tech.examadda.org/python/pandas-introduction)
+  - [Pandas Introduction](https://dev.tech.examadda.org/python/pandas-introduction)
+  - [Pandas Series](https://dev.tech.examadda.org/python/pandas-series)
+  - [Pandas DataFrames](https://dev.tech.examadda.org/python/pandas-dataframe)
+  - [Pandas Read CSV](https://dev.tech.examadda.org/python/pandas-read-csv)
+  - [Pandas Read JSON](https://dev.tech.examadda.org/python/pandas-read-json)
+  - [Pandas Analyzing Data](https://dev.tech.examadda.org/python/pandas-analyzing-data)
+  - [Pandas Cleaning Data](https://dev.tech.examadda.org/python/pandas-cleaning-data)
+  - [Pandas Cleaning Empty Cells](https://dev.tech.examadda.org/python/pandas-cleaning-empty-cells)
+  - [Pandas Cleaning Wrong Format](https://dev.tech.examadda.org/python/pandas-cleaning-wrong-format)
+  - [Pandas Cleaning Wrong Data](https://dev.tech.examadda.org/python/pandas-cleaning-wrong-data)
+  - [Pandas Removing Duplicates](https://dev.tech.examadda.org/python/pandas-removing-duplicates)
+  - [Pandas Correlations](https://dev.tech.examadda.org/python/pandas-correlations)
 
-⬇️
+### Matplotlib
 
-## 12. Python Classes
-
-- [ ] [Python Classes](https://www.w3schools.com/python/python_classes.asp)
-
-⬇️
-
-## 13. File Handling
-
-- [ ] [File Handling](https://www.w3schools.com/python/python_file_handling.asp)
-
-⬇️
-
-## 14. Python Modules
-
-- [ ] [Python Modules](https://www.w3schools.com/python/python_modules.asp)
+- [Matplotlib Tutorial](https://dev.tech.examadda.org/python/matplotlib-introduction)
+  - [Matplotlib Introduction](https://dev.tech.examadda.org/python/matplotlib-introduction)
+  - [Matplotlib Pyplot](https://dev.tech.examadda.org/python/matplotlib-pyplot)
+  - [Matplotlib Plotting](https://dev.tech.examadda.org/python/matplotlib-plotting)
+  - [Matplotlib Markers](https://dev.tech.examadda.org/python/matplotlib-markers)
+  - [Matplotlib Line](https://dev.tech.examadda.org/python/matplotlib-line-plot)
+  - [Matplotlib Labels](https://dev.tech.examadda.org/python/matplotlib-labels)
+  - [Matplotlib Grid](https://dev.tech.examadda.org/python/matplotlib-grid)
+  - [Matplotlib Subplot](https://dev.tech.examadda.org/python/matplotlib-subplots)
+  - [Matplotlib Scatter](https://dev.tech.examadda.org/python/matplotlib-scatter-plot)
+  - [Matplotlib Bars](https://dev.tech.examadda.org/python/matplotlib-bar-chart)
+  - [Matplotlib Histograms](https://dev.tech.examadda.org/python/matplotlib-histogram)
+  - [Matplotlib Pie Charts](https://dev.tech.examadda.org/python/matplotlib-pie-chart)
 
 ---
 
@@ -180,32 +217,25 @@
 
 ```text
 Python Basics
-   ↓
-Strings
-   ↓
-Booleans & Operators
-   ↓
-Lists
-   ↓
-Tuples
-   ↓
-Sets
-   ↓
-Dictionaries
-   ↓
-If Else & Loops
-   ↓
+    ↓
+Data Types & Operators
+    ↓
+Lists, Tuples, Sets & Dictionaries
+    ↓
+Conditional Statements & Loops
+    ↓
 Functions
-   ↓
-Core Python
-   ↓
-Classes
-   ↓
+    ↓
+Python Utilities
+    ↓
+OOP & Classes
+    ↓
 File Handling
-   ↓
-🚀 Python Skills
-```
-
----
-
-**Learn → Practice → Build → Grow**
+    ↓
+NumPy
+    ↓
+Pandas
+    ↓
+Matplotlib
+    ↓
+🚀 Python Development & Data Science
